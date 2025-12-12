@@ -1,10 +1,10 @@
 # Statute_Finder.py and Starting Out
 
-This Python program is accessed and ran via terminal on macOS and will accept .pdf, .docx, and .txt files. 
+This Python program is accessed and ran via terminal and will accept .pdf, .docx, and .txt files. 
 
 To start, the program will check your system to see if .pdf, .docx, and .txt Python support is enabled on your system. 
 
-For example, I passed a .pdf document and needed to install PyPDF2. To do so, you will need to do the following in terminal to get pip and PyPDF2: 
+For example, I passed a .pdf document in my macOS terminal and needed to install PyPDF2. To do so, you will need to do the following in terminal to get pip and PyPDF2: 
 * < python3 -m ensurepip --upgrade >
 * < pip install PyPDF2 >
 
