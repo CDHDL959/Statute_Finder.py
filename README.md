@@ -75,7 +75,7 @@ The regex (Regular Expression) pattern in the __init__ method (of the StatuteCro
 * format_report(): Generates a readable report (OUTPUT)
 
 ### Privacy Concerns
-* This program runs entirely on your local computer, meaning all pcoessing happens on your machine.
+* This program runs entirely on your local computer, meaning all processing happens on your machine.
 * Does not connect to the internet (data does not get sent anywhere).
 * Does not upload files (your documents remain on your device).
 * Does not store data externally (all local).
