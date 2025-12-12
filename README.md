@@ -46,6 +46,9 @@ Additionally, at the end it will ask the user if they want to save this report t
 
 I would include an example PDF; however, I worry about privacy. Examples can easily be found online. I used a brief from the United States Court of Appeals Fifth Circuit. 
 
+## Initial Screen
+<img width="853" height="688" alt="Statute_Finder" src="https://github.com/user-attachments/assets/76f40a43-e1d5-4fea-8a71-025b82167d79" />
+
 ## Program Details and Limitations
 
 Will not support .doc files (Microsoft Word 97-2003). 
