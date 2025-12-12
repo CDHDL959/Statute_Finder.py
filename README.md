@@ -19,23 +19,25 @@ To run the program, open macOS terminal and type the following: < python3 Statut
 ## What it Does
 
 A message will appear in terminal telling you what it does and perform a system check to see if PDF, DOCX, and TXT Python support are enabled on your system.
-It will then prompt the user to for a path to their document. You can simply enter the tite of the document if you are running this script in the same directory (i.e. Folder).
+
+It will then prompt the user for a path to their document. You can simply enter the tite of the document if you are running this script in the same directory (i.e. Folder).
+
 The script will then gather the following information: 
 
-**Catalog all statute refrences:**
+### Catalog all statute refrences:
 * U.S. Code (USC) citations
 * Code of Federal Regulations (CFR)
 * State code references
 * Public law references
 * Section references
 
-**The program will generate a comprehensve report showing:**
+### The program will generate a comprehensve report showing:
 * Total number of references found
 * Unique citations by type
 * Cross-reference map with context
 * Detailed location information
 
-After the anaylsis is complete, you will get:
+### After the anaylsis is complete, you will get:
 1. Statute Cross-Reference Analysis
 2. Unique Citations
 3. Cross-Reference Map
