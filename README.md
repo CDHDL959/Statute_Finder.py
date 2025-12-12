@@ -42,6 +42,8 @@ After the anaylsis is complete, you will get:
 
 Additionally, at the end it will ask the user if they want to save this report to a file (yes/no). If You want to save it, the program will ask for an output filename or just default to: statute_analysis_report.txt. The file will be saved in the same folder that the script is ran. 
 
+I would include an example PDF; however, I worry about privacy. Examples can easily be found online. I used a brief from the United States Court of Appeals Fifth Circuit. 
+
 ## Program Details and Limitations
 
 Will not support .doc files (Microsoft Word 97-2003). 
@@ -66,3 +68,15 @@ The regex (Regular Expression) pattern in the __init__ method (of the StatuteCro
 * analyze_file(): Analyze a file (calls load_document then analyze_document)
 * analyze_document(): Complete analysis with statistics
 * format_report(): Generates a readable report (OUTPUT)
+
+### Privacy Concerns
+* This program runs entirely on your local computer, meaning all pcoessing happens on your machine.
+* Does not connect to the internet (data does not get sent anywhere).
+* Does not upload files (your documents remain on your device).
+* Does not store data externally (all local).
+* Does not use any external APIs or services.
+* Analysis is done locally using Python's built-in regex matching.
+
+**Bottom Line**: This is a completely offline, local tool. It is the same level of privacy as opening the document in a text editor or PDF viewer on your machine. 
+
+Be mindful of where you save the reports if they contain sensitive citation information. This mostly concerns shared computers or saving the output to a cloud location that people lacking need-to-know can access. 
