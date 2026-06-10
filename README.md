@@ -4,17 +4,17 @@ This Python program is accessed and ran via terminal and will accept .pdf, .docx
 
 To start, the program will check your system to see if .pdf, .docx, and .txt Python support is enabled on your system. 
 
-For example, I passed a .pdf document in my macOS terminal and needed to install PyPDF2. To do so, you will need to do the following in terminal to get pip and PyPDF2: 
-* < python3 -m ensurepip --upgrade >
-* < pip install PyPDF2 >
+For example, I passed a .pdf document in my macOS terminal and needed to install PyPDF2. To do so, you will need to do the following in terminal to get `pip` and `PyPDF2`: 
+`python3 -m ensurepip --upgrade`
+`pip install PyPDF2`
 
 If the above set of code does not install pip, you can do this instead: 
-* < curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py >
-* < python3 get-pip.py >
+`curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+`python3 get-pip.py`
 
-For DOCX support: < pip install python-docx >
+For DOCX support: `pip install python-docx`
 
-To run the program, open macOS terminal and type the following: < python3 Statute_Finder.py >
+To run the program, open macOS terminal and type the following: `python3 Statute_Finder.py`
 
 ## What it Does
 
@@ -42,7 +42,7 @@ The script will then gather the following information:
 2. Unique Citations
 3. Cross-Reference Map
 
-Additionally, at the end it will ask the user if they want to save this report to a file (yes/no). If You want to save it, the program will ask for an output filename or just default to: statute_analysis_report.txt. The file will be saved in the same folder that the script is ran. 
+Additionally, at the end it will ask the user if they want to save this report to a file `(yes/no)`. If You want to save it, the program will ask for an output filename or just default to: `statute_analysis_report.txt`. The file will be saved in the same folder that the script is ran. 
 
 I would include an example PDF; however, I worry about privacy. Examples can easily be found online. I used a brief from the United States Court of Appeals Fifth Circuit. 
 
@@ -65,14 +65,14 @@ The regex (Regular Expression) pattern in the __init__ method (of the StatuteCro
   * 'Statute_Year': r'\b(Pub\.?\s+L\.?\s+No\.?\s+)(\d+-\d+)'
 
 ### Main Methods Used
-* load_document(): Loads files
-* _load_txt() | _load_pdf() | _load_docx(): Format-specific loaders
-* find_references(): Finds all statute citations
-* get_unique_references(): Gets unique citations by type
-* create_cross_reference_map(): Shows ehere each statute appears with context
-* analyze_file(): Analyze a file (calls load_document then analyze_document)
-* analyze_document(): Complete analysis with statistics
-* format_report(): Generates a readable report (OUTPUT)
+* `load_document()`: Loads files
+* `_load_txt() | _load_pdf() | _load_docx()`: Format-specific loaders
+* `find_references()`: Finds all statute citations
+* `get_unique_references()`: Gets unique citations by type
+* `create_cross_reference_map()`: Shows ehere each statute appears with context
+* `analyze_file()`: Analyze a file (calls load_document then analyze_document)
+* `analyze_document()`: Complete analysis with statistics
+* `format_report()`: Generates a readable report (OUTPUT)
 
 ### Privacy Concerns
 * This program runs entirely on your local computer, meaning all processing happens on your machine.
