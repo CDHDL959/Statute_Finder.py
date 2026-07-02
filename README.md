@@ -82,6 +82,6 @@ The regex (Regular Expression) pattern in the __init__ method (of the StatuteCro
 * Does not use any external APIs or services.
 * Analysis is done locally using Python's built-in regex matching.
 
-**Bottom Line**: This is a completely offline, local tool. It is the same level of privacy as opening the document in a text editor or PDF viewer on your machine. 
+This is a completely offline, local tool. It is the same level of privacy as opening the document in a text editor or PDF viewer on your machine. 
 
 Be mindful of where you save the reports if they contain sensitive citation information. This mostly concerns shared computers or saving the output to a cloud location that people lacking need-to-know can access. 
